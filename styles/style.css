@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.common-color {
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.common-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.10rem;
+    font-weight: 800;
+    border: 0;
+    padding: 10px 25px;
+}
+
+/* our popular tours section start */
+
+/* our popular tours stat  */
+.popular{
+    display: flex;
+    gap: 30px;
+}
+
+.popular-title {
+    color: #131318;
+    font-size: 2.50rem;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+/* responsive with mobile device */
