@@ -19,9 +19,29 @@
     .banner-title {
         font-size: 2rem;
     }
+    .popular-title {
+        margin-top: 0;
+        font-size: 2rem;
+    }
     .popular-content,
     .popular-img {
         width: 100%;
+    }
+    .choose,
+    .destination-content {
+        margin-top: 30px;
+    }
+    .destination-content h3 {
+        font-size: 1.50rem;
+    }
+    .frist-row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .second-row{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .thard-row{
+        grid-template-columns: repeat(1,1fr);
     }
     .choose-3{
         width: 100%;
