@@ -1,0 +1,47 @@
+/* mobile device */
+@media screen and (max-width:600px) {
+    header,main{
+        margin: 0 10px;
+    }
+    nav,
+    .banner-input,
+    .popular,
+    .choose-card,
+    .newsletter{
+        flex-direction: column;
+    }
+    .nav-right li{
+        display: flex;
+    }
+    .banner-container {
+        padding: 20px;
+    }
+    .banner-title {
+        font-size: 2rem;
+    }
+    .popular-content,
+    .popular-img {
+        width: 100%;
+    }
+    .choose-3{
+        width: 100%;
+        margin-left: 0;
+    }
+    .newslatter-discunt {
+        width: 150px;
+        height: 80px;
+        bottom: 105px;
+        left: 185px;
+    }
+    
+    .newslatter-discunt p {
+        font-size: 1rem;
+    }
+    
+    .newslatter-discunt h3 {
+        font-size: 1.25rem;
+    }
+    .newsletter {
+        margin: 80px 0 0;
+    }
+}
