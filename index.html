@@ -25,20 +25,29 @@
             </div>
         </nav>
         <!-- our popular tours section start  -->
-        <div class="banner-container">
-            <h2 class="banner-title">Explore Your Tarvel</h2>
-            <p>Celebrate the holidays some place warm and watery place. <br>Have a nice day</p>
-            <div>
-                <input type="text" placeholder="where go">
-                <select name=" when" id="">
-                    <option value="bangladesh">Bangladesh</option>
-                    <option value="bandarban">Bandarban</option>
-                    <option value="kashmir">Kashmir</option>
-                    <option value="maldives">Maldives</option>
-                    <option value="Indonesia">Indonesia</option>
-                    <option value="nort america">North America</option>
-                </select>
-                <button>Find Now</button>
+        <div class="banner">
+            <div class="banner-container">
+                <h2 class="banner-title">Explore Your Tarvel</h2>
+                <p>Celebrate the holidays some place warm and watery place. <br>Have a nice day.</p>
+                <div class="banner-input">
+                    <input type="text" placeholder="where go">
+                    <select name="place" required>
+                        <option value="hidden item">When</option>
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="bandarban">Bandarban</option>
+                        <option value="kashmir">Kashmir</option>
+                        <option value="maldives">Maldives</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="hidden">Select Type</option>
+                        <option value="Flight">Flight</option>
+                        <option value="bus">Bus</option>
+                        <option value="train">Train</option>
+                    </select>
+                    <button class="common-btn">
+                        <img src="./images/Frame (1).svg" height="14px" width="17px" alt=""> Find Now
+                    </button>
+                </div>
             </div>
         </div>
     </header>
@@ -58,6 +67,16 @@
             </div>
             <div class="popular-img">
                 <img src="./images/Rectangle 4.png" alt="">
+            </div>
+        </section>
+        <!-- Choose Your Destination start -->
+        <section>
+            <div>
+                <h3>Choose Your Destination</h3>
+                <p>Festivals and parties are interesting moments in order to discover the culture of a country. Be there when i's the most lively and you will loved your experience. Make those events the highlight of your trip.</p>
+            </div>
+            <div>
+                
             </div>
         </section>
     </main>
